@@ -109,7 +109,9 @@ span.ingredient {
   padding-bottom: 24px;
   display: block;
   position: relative;
-  border-radius: 2px;
+
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link::after {
@@ -120,6 +122,7 @@ span.ingredient {
   background: var(--ocean, #404bbf);
   position: absolute;
   bottom: -1px;
+  border-radius: 2px;
 }
 .contact-link {
   color: var(--slate, #434455);
@@ -129,6 +132,7 @@ span.ingredient {
   font-style: normal;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu {
@@ -191,6 +195,7 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-hero {
   font-size: 16px;
@@ -391,6 +396,7 @@ button {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
   fill: #f4f4fd;
@@ -433,6 +439,8 @@ button {
   align-items: center;
   justify-content: center;
   color: var(--customers-link, #8e8f99);
+  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover {
   border-color: #404bbf;
@@ -523,6 +531,7 @@ span.ingredient {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-icon {
   fill: #f4f4fd;
