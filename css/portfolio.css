@@ -271,7 +271,6 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding-bottom: 164px;
   background: var(--iris, #4d5ae5);
 }
 .image-content:hover .overlay {
